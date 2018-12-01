@@ -1,5 +1,75 @@
-<html>
- <body>
-  <h1>Primarily a test to see if my intellect is high enough to make sub-domains work</h1>
- </body>
+<html lang="en">
+
+<head>
+  <title>CSS Website Layout</title>
+  <meta charset="utf-8">
+  <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #FFFFFF;
+    }
+
+    .section2 {
+      height: 200px;
+      background-image: linear-gradient(to right, #ff2b3d, #00d4cd);
+    }
+
+    .title {
+      color: white;
+
+    }
+
+    .section3 {
+      height: 200px;
+      background: grey;
+    }
+
+    /* Style the top navigation bar */
+
+    .bar {
+      overflow: hidden;
+      background: #333;
+    }
+
+    /* Style the topnav links */
+
+    .bar a {
+      float: left;
+      display: round;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+
+    .bar a:hover {
+      background-color: #ddd;
+      color: black;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bar">
+    <a href="#">About</a>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+  </div>
+  <div class="section2">
+    <div class="title">
+      <i class="fab fa-twitter"></i><h2>Centered Content</h2>
+    </div>
+  </div>
+
+  <div class="section3"></div>
+</body>
+
 </html>
